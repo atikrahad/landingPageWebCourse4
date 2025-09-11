@@ -1,76 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            font-family: sans-serif;
-        }
-        nav{
-            background-color: rgb(28, 42, 69);
-            color: white;
-            padding: 20px 60px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        ul{
-           display: flex; 
-           gap: 40px;
-           list-style: none;
-           font-weight: 600;
-        }
-        li:hover{
-            color: aqua;
-            text-decoration: underline;
-        }
-        .header{
-            background-color: rgb(28, 42, 69);
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 60px 100px;
-        }
-        img{
-            width: 50%;
-            height: 500px;
-        }
-        .header-text{
-            width: 50%;
-            padding: 0 150px;
-        }
-        h3{
-            color: aqua;
-        }
-        h1{
-            color: azure;
-        }
-        h4{
-            color: chocolate;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      nav {
+        background-color: rgb(28, 42, 69);
+        color: white;
+        padding: 20px 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      ul {
+        display: flex;
+        gap: 40px;
+        list-style: none;
+        font-weight: 600;
+      }
+      li:hover {
+        color: aqua;
+        text-decoration: underline;
+      }
+      .header {
+        background-color: rgb(28, 42, 69);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 60px 100px;
+      }
+      img {
+        width: 50%;
+        height: 500px;
+      }
+      .header-text {
+        width: 50%;
+        padding: 0 150px;
+      }
+      h3 {
+        color: aqua;
+      }
+      h1 {
+        color: azure;
+      }
+      h4 {
+        color: chocolate;
+      }
+      .contact {
+        background-color: rgb(15, 22, 36);
+        padding: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .contact-text {
+        width: 50%;
+        color: white;
+      }
+      .btn{
+        padding: 10px;
+        background-color: yellow;
+        border-radius: 5px;
+      }
     </style>
-</head>
-<body>
-    <nav >
-        <h1>Logo</h1>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contact</li>
-        </ul>
+  </head>
+  <body>
+    <nav>
+      <h1>Logo</h1>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+      </ul>
     </nav>
     <div class="header">
-        <img src="/man.jpg" alt="">
-        <div class="header-text">
-            <h3>Hello!</h3>
-            <h1>Cristian Lopez</h1>
-            <h4>Web Developer</h4>
-        </div>
+      <img src="/man.jpg" alt="" />
+      <div class="header-text">
+        <h3>Hello!</h3>
+        <h1>Cristian Lopez</h1>
+        <h4>Web Developer</h4>
+      </div>
     </div>
-</body>
+    <div class="contact">
+      <div class="contact-text">
+        <h1>Any type of query <br> & disscussion</h1>
+        <p style="margin-top: 10px; line-height: 24px;">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
+          modi unde tenetur distinctio rerum culpa voluptatum nisi earum! Autem
+          aperiam, placeat deserunt quo magnam dolorem quisquam est nisi
+          architecto fugit.
+        </p>
+      </div>
+      <button class="btn">Contact me</button>
+    </div>
+  </body>
 </html>
