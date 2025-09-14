@@ -71,7 +71,7 @@
         background-color: yellow;
         border-radius: 5px;
       }
-      .hire{
+      .hire {
         background-color: rgb(15, 22, 36);
         margin: 120px 100px;
         padding: 100px;
@@ -80,13 +80,56 @@
         gap: 20px;
         border-radius: 10px;
       }
-      .hire-text{
+      .hire-text {
         width: 30%;
         margin: auto;
         color: white;
         display: flex;
         flex-direction: column;
         gap: 20px;
+      }
+      .form{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80%;
+        margin: 40px auto;
+      }
+      .form-left{
+        width: 50%;
+        color: rgb(203, 201, 201);
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .form-left p{
+        font-size: 20px;
+      }
+      form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: rgb(15, 22, 36);
+        padding: 50px;
+        border-radius: 10px;
+        width: 40%;
+      }
+      input{
+        padding: 8px 10px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid white;
+        outline: none;
+        color: white;
+      }
+      textarea{
+        padding: 8px 10px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid white;
+        outline: none;
+        color: white;
+        height: 50px;
       }
     </style>
   </head>
@@ -135,6 +178,25 @@
         </p>
         <button class="btn">Lern More</button>
       </div>
+    </div>
+    <div class="form">
+      <div class="form-left">
+        <h1 style="margin-bottom: 20px;">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
+          quos.
+        </h1>
+        <p><b>Name:</b> Jacob Hawkins</p>
+        <p><b>Address:</b> New York, Usa</p>
+        <p><b>Phone:</b> +9846754534</p>
+        <p><b>Hours:</b> 6:00 am - 2:00 am</p>
+      </div>
+      <form action="">
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+        <input type="text" placeholder="Subject" />
+        <textarea placeholder="Message"></textarea>
+        <button class="btn">SUBMIT</button>
+      </form>
     </div>
   </body>
 </html>
