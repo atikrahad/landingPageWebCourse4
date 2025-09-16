@@ -1,0 +1,51 @@
+.div1 {
+  height: 100px;
+  width: 100px;
+  background-color: brown;
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.div2 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 0, 179);
+  transition: all 0.4s ease-in-out;
+}
+.container{
+    height: 60vh;
+    width: 60vw;
+    margin: 150px auto;
+    background-color: slategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    
+}
+.div1:hover, .div2:hover{
+    transform: scale(1.4) rotate(45deg);
+}
+/* body{
+    position: relative;
+} */
+
+.review{
+    margin: 100px auto;
+    width: 30vw;
+    padding: 50px;
+    background-color: slategray;
+    border-radius: 10px ;
+    position: relative;
+}
+img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -35px;
+    left: 125px;
+    border: 2px solid green;
+    border-radius: 50%;
+}
